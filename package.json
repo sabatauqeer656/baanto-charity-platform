@@ -1,0 +1,14 @@
+{
+  "name": "baanto",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Baanto: a community platform for giving away items for free.",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}

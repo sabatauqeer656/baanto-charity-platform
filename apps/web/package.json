@@ -1,0 +1,10 @@
+{
+  "name": "@baanto/web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Baanto web app (React + Vite).",
+  "type": "module",
+  "dependencies": {
+    "@baanto/shared": "*"
+  }
+}

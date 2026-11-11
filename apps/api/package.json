@@ -1,0 +1,10 @@
+{
+  "name": "@baanto/api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Baanto REST API (Express + MongoDB).",
+  "type": "module",
+  "dependencies": {
+    "@baanto/shared": "*"
+  }
+}
