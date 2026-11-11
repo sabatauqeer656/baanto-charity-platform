@@ -1,0 +1,56 @@
+# ─────────────────────────────────────────────────────────────
+# Kindora .gitignore
+# Anything listed here is never tracked by Git or pushed to GitHub.
+# ─────────────────────────────────────────────────────────────
+
+# Dependencies (re-created by `npm install` from package-lock.json)
+node_modules/
+
+# Environment variables and secrets: NEVER commit these.
+# `.env.example` (placeholder values only) is the one exception.
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+
+# Database dumps and backups (contain private user data)
+dump/
+backups/
+*.bson
+
+# Build output
+dist/
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Playwright end-to-end test output
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# Temporary and local-only files
+tmp/
+*.local
+.vercel/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors: ignore personal settings, but share the project's
+# recommended VS Code settings and extensions.
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json

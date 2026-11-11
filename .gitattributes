@@ -1,0 +1,19 @@
+# Store every text file with LF (Unix) line endings in the repository,
+# whatever the developer's operating system. This keeps diffs clean and
+# matches the Linux machines used by GitHub Actions and our hosting.
+* text=auto eol=lf
+
+# Windows-only scripts must keep CRLF line endings to run correctly.
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary files: Git must never try to change their line endings.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.webp  binary
+*.gif   binary
+*.ico   binary
+*.woff  binary
+*.woff2 binary
