@@ -1,8 +1,9 @@
-# Kindora
+# Baanto
 
 > Give something you no longer need to someone who needs it. No money involved.
 
-Kindora is a community platform for giving away items for free. Givers post
+**Baanto** (بانٹو) means "share it" in Urdu. It is a community platform for
+giving away items for free. Givers post
 items, people nearby request them through private in-app messages, and the two
 arrange collection themselves. There are no prices, payments, or shipping.
 
